@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>      
+    <header>
+        <h1>Donasi Palestina</h1>
+        <h2>Mari berdonasi untuk saudara kita yang sedang berjuang !!!</h2>        
+    </header>
+
+    <h4>Isi form di bawah ini untuk menyalurkan Donasi</h4>
+    
+    <main class="container">
+        <section class="card">
+          <label for="inputnama">Nama donatur</label>
+          <input type="text" id="inputnama" placeholder="Masukan nama donatur">
+          <br><br>
+          <label for="inputemail">Email</label>
+          <input type="email" placeholder="xxxx@gmail.com" id="inputemail">
+          <br><br>
+          <label for="inputnominal">Masukan nominal anda</label>
+          <input type="number" id="inputnominal" placeholder="Nominal berupa IDR">
+          <br><br>
+          <label for="inputpayment">Pilih Metode pembayaran</label>
+          <select id="inputpayment">
+          <option value="Dana">Dana</option>
+          <option value="Gopay">Gopay</option>
+          <option value="BSI">BSI</option>
+          </select>
+          <br><br>
+          <label for="inputpesan">Pesan</label>
+          
+          <textarea name="inputpesan" id="inputpesan" rows="4" placeholder="Berikan Pesan anda untuk saudara kita di Palestina"></textarea>
+              <button class="tombolkirim" onclick="tambahdonasi()"> Kirim donasi anda </button>
+    <!-- <button class="tombolkirim" onclick="risetdonasi()">Riset donasi</button> -->
+        </section>
+    </main>
+
+<br>
+     <section class="card">
+                <h2>Jumlah Donasi (<span id="jumlahdonasi">0</span>)</h2>
+                <p id="tekskosong">Belum ada Donasi yang masuk</p>
+                <section id="daftardonasi"></section>
+     </section>
+     <script src="main.js"></script>
+</body>
+</html>

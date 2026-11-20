@@ -1,0 +1,110 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:rgb(53, 159, 127);
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 0, 0);
+}
+h4{
+    border: 1px solid;
+    border-radius: 8px;
+    background-color: blanchedalmond;
+    padding: 2px;
+}
+
+header{
+    border: 5px solid;
+    border-radius: 8px;
+    border-color: black;
+    text-align:center;
+    /* background-color:blanchedalmond;
+    color:  rgb(0, 0, 0); */
+    background-image: url(download\ \(8\).jpeg) ;
+    min-height: 100%;
+    color: rgb(225, 6, 20);
+    padding: 25px;
+}
+
+.container{
+    max-width: 600px;
+    margin: 2px auto;
+    padding: 0 15px;
+}
+
+.card{
+    background-color: ghostwhite;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 8px 5px goldenrod;
+}
+
+label{
+    display: block;
+    font-weight:bold;
+    margin-top: 12px;
+}
+
+input, select, textarea{
+    width: 80%;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button{
+    margin-top: 15px;
+    width: 50%;
+    padding: 12px;
+    background-color: rgb(252, 244, 0);
+    border: 2px solid;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.itemlaporan{
+    background-color: aliceblue;
+    border-left: 4px solid #333;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+
+.itemlaporan h3{
+    margin: 0 0 8px 0;
+    font-size: 16px;
+
+}
+
+.itemlaporan p{
+    margin: 0;
+    color: black;
+}
+
+.badge{
+    background-color: blueviolet;
+    color: chartreuse;
+    font-size: 12px;
+    padding: 3px 8px;
+    border-radius: 8px;
+    margin-left: 8px;
+}
+    /* transition:all 1s 
+    
+
+
+button:hover{
+    background-color: blanchedalmond;
+    transform: skewY(180deg);
+}
+
+.tombolkirim {
+    display: inline;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+ */
